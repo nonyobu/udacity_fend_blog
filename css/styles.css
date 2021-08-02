@@ -1,15 +1,24 @@
+@import url(large.css);
+@import url(medium.css);
+@import url(small.css);
+
 body {
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-    font-size: 2.5em;
+    text-align: center;
 }
 
 h2 {
-    font-size: 2em;
+    text-align: center;
 }
 
-h3 {
-    font-size: 1.5em;
+.main-header {
+    width: 100%;
+}
+
+.sub-header {
+    width: 100%;
 }
